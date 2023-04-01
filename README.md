@@ -1,5 +1,5 @@
 # LandmarkBookSwiftUI
 swift training
 
-![List](./images/step1.png)
-![Detail](./images/step2.png)
+![List](./LandmarkSwiftUI/images/step1.png)
+![Detail](./LandmarkSwiftUI/images/step2.png)
