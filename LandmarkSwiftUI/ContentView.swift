@@ -9,13 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            List(landmarkArray){landmark in
+                NavigationLink(destination: LandmarkDetailView(item: landmark)){
+                    CustomListElement(item: landmark)
+                }
+            }.navigationBarTitle(Text("Landmark Book"))
+                .listStyle(PlainListStyle())
         }
-        .padding()
     }
 }
 
