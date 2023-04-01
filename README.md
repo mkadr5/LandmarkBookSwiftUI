@@ -1,5 +1,5 @@
 # LandmarkBookSwiftUI
 swift training
 
-![alternatif metin](./images/step1.png)
-![alternatif metin](./images/step2.png)
+![List](./images/step1.png)
+![Detail](./images/step2.png)
