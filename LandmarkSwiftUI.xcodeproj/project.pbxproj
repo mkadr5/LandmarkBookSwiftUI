@@ -59,6 +59,7 @@
 		C0DF1E1F29D877080001E5A2 /* LandmarkSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C0DF1E3629D8934F0001E5A2 /* images */,
 				C0DF1E2029D877080001E5A2 /* LandmarkSwiftUIApp.swift */,
 				C0DF1E2229D877080001E5A2 /* ContentView.swift */,
 				C0DF1E2429D877090001E5A2 /* Assets.xcassets */,
@@ -77,6 +78,13 @@
 				C0DF1E2729D877090001E5A2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0DF1E3629D8934F0001E5A2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
